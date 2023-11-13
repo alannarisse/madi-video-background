@@ -1,0 +1,74 @@
+
+* {
+  box-sizing: border-box;
+}
+img {
+  width:100%;
+}
+body {
+  overflow-x: hidden;
+  margin:0;
+}
+.background-fun {
+  background-image: url("../images/kitten.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: #ffffff;
+}
+button {
+  border: none;
+  background-color: #9370db;
+  border-radius: 2px;
+  height: 2em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.homepage-head {
+  height:729px;
+  background-color:#9370db;
+}
+.two {
+  background-color:azure;
+  height:100vh;
+}
+/* video styles */
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.background-video {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.background-video div {
+  flex: 1;
+}
+.video-container {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+}
+
+/* In case you want to disable the video 
+@media screen and (max-width: 400px) {
+  html {
+    background: url("https://images.unsplash.com/photo-1620222071550-a5c7f8b600ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMDY4NDIyNA&ixlib=rb-1.2.1&q=80&w=400");
+    background-size: cover;
+  }
+  .video-container {
+    display: none;
+  }
+}
+*/
